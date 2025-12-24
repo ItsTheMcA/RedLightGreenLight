@@ -1,0 +1,28 @@
+
+name: RedLightGreenLight
+main: me.yourname.redlightgreenlight.RedLightGreenLightPlugin
+version: 1.2.0
+author: ItsTheMcA
+api-version: 1.21
+
+commands:
+  rlglstart:
+    description: Start RLGL game
+    permission: rlgl.admin
+  rlglstop:
+    description: Stop RLGL game
+    permission: rlgl.admin
+  rlglreset:
+    description: Reset RLGL game
+    permission: rlgl.admin
+  rlglforcegreen:
+    description: Force switch to green
+    permission: rlgl.admin
+  rlglforcered:
+    description: Force switch to red
+    permission: rlgl.admin
+
+permissions:
+  rlgl.admin:
+    description: Allows all RLGL admin commands
+    default: op
